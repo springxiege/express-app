@@ -1,0 +1,26 @@
+{% extends "layout/layout.html" %}
+{% block css %}
+<style>
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    ul,li,dl,dt,dd{list-style-type: none;}
+</style>
+{% endblock %}
+{% block content %}
+    <ul class="j-list">
+        {% for item in list %}
+            <li>{{ item.title }}: {{ item.content }}</li>
+        {% endfor  %}
+    </ul>
+{% endblock %}
+{% block js %}
+<script>
+    $(function(){
+        $('.j-list').find('li').click(function(event) {
+            alert($(this).index());
+        });
+    })
+</script>
+{% endblock %}
