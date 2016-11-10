@@ -1,4 +1,5 @@
 {% extends "layout/layout.html" %}
+
 {% block css %}
 <style>
     body{
@@ -8,7 +9,7 @@
     ul,li,dl,dt,dd{list-style-type: none;}
 </style>
 {% endblock %}
-``````````````````````
+
 {% block content %}
     <ul class="j-list">
         {% for item in list %}
@@ -22,6 +23,7 @@
     $(function(){
         $('.j-list').find('li').click(function(event) {
             alert($(this).index());
+            console.log($(this).index())
         });
     })
 </script>
