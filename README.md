@@ -1,7 +1,13 @@
 # express-app
-Use nodeJS + Express + Nunjucks + Mongoose to build App applications
-The following is the initial building needs:
-* Resume form Include name, picture, occupation, project experience, working hours, company, self introduction and main skills.
-* Resume display
 
-多人合作开发
+利用express-generator手脚架搭建的一个应用。项目在testApp目录下面，你可以将整个项目clone到本地，然后执行以下命令即可跑通
+
+
+首先保证命令模式在testApp目录下，并执行命令
+``` bash
+// 安装依赖
+npm install
+
+// 启动服务
+npm start
+```
