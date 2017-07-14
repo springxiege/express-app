@@ -1,3 +1,6 @@
+.mgb30 {
+  margin-bottom: 30px;
+}
 .marginAuto {
   margin-left: auto;
   margin-right: auto;
@@ -9,9 +12,6 @@ body {
 .introduce {
   border: 1px solid;
   margin-top: 30px;
-}
-.introduce:last-of-type {
-  margin-bottom: 30px;
 }
 .introduce .summary {
   padding: 10px 10px 10px;
