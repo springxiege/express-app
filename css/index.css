@@ -8,6 +8,14 @@ body {
 }
 .introduce {
   border: 1px solid;
+  margin-top: 30px;
+}
+.introduce:last-of-type {
+  margin-bottom: 30px;
+}
+.introduce .summary {
+  padding: 10px 10px 10px;
+  line-height: 24px;
 }
 .captain-wrap {
   position: relative;
@@ -16,10 +24,14 @@ body {
 .captain-wrap .captain {
   position: absolute;
   z-index: 9;
+  height: 20px;
+  line-height: 20px;
   left: 20px;
-  top: -10px;
+  top: -24px;
   color: #6ebec2;
   background-color: #000;
+  padding: 0 10px;
+  font-weight: normal;
 }
 .captain-wrap .captain > small {
   color: #266f71;
