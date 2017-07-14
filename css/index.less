@@ -10,13 +10,25 @@ body {
     background-color: #000;
     color: @primary-color;
 }
-.captain {
-    color: @captain-color;
-    background-image: url(../images/bg.gif);
-    background-repeat: repeat-x;
-    background-size: auto auto;
-    background-position: 0 0;
-    > small {
-        color: @primary-color;
+.introduce {
+    border: 1px solid
+}
+.captain-wrap {
+    position: relative;
+    z-index: 1;
+    .captain {
+        position: absolute;
+        z-index: 9;
+        left: 20px;
+        top: -10px;
+        color: @captain-color;
+        background-color: #000;
+        // background-image: url(../images/bg.gif);
+        // background-repeat: repeat-x;
+        // background-size: auto auto;
+        // background-position: 0 0;
+        > small {
+            color: @primary-color;
+        }
     }
 }

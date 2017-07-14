@@ -6,13 +6,21 @@ body {
   background-color: #000;
   color: #266f71;
 }
-.captain {
-  color: #6ebec2;
-  background-image: url(../images/bg.gif);
-  background-repeat: repeat-x;
-  background-size: auto auto;
-  background-position: 0 0;
+.introduce {
+  border: 1px solid;
 }
-.captain > small {
+.captain-wrap {
+  position: relative;
+  z-index: 1;
+}
+.captain-wrap .captain {
+  position: absolute;
+  z-index: 9;
+  left: 20px;
+  top: -10px;
+  color: #6ebec2;
+  background-color: #000;
+}
+.captain-wrap .captain > small {
   color: #266f71;
 }
