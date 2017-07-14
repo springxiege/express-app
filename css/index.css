@@ -6,3 +6,9 @@ body {
   background-color: #000;
   color: #266f71;
 }
+.captain {
+  color: #6ebec2;
+}
+.captain > small {
+  color: #266f71;
+}
